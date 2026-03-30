@@ -1,0 +1,26 @@
+{
+  "triangles": {
+    "2": {
+      "side_a": 5.0,
+      "side_b": 5.0,
+      "side_c": 5.0,
+      "type": "Equilateral",
+      "is_valid": true
+    },
+    "3": {
+      "side_a": 3.0,
+      "side_b": 4.0,
+      "side_c": 5.0,
+      "type": "Scalene",
+      "is_valid": true
+    },
+    "4": {
+      "side_a": 1.0,
+      "side_b": 2.0,
+      "side_c": 10.0,
+      "type": null,
+      "is_valid": false
+    }
+  },
+  "next_id": 5
+}
