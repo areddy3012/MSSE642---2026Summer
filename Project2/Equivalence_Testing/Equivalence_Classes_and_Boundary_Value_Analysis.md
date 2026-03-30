@@ -44,7 +44,7 @@ I chose this example because the rules for triangle validity are clear, and the 
 - Isosceles Triangle
 
 **Screenshot:**
-![Sunny Day - Valid Input](./Screenshots/sunny_day.png)
+![Sunny Day - Valid Input](./Equivalence_Testing/Screenshots/sunny_day.png)
 
 ### Rainy Day Scenario (Invalid Input)
 
@@ -57,7 +57,7 @@ I chose this example because the rules for triangle validity are clear, and the 
 - Invalid: Triangle inequality violated
 
 **Screenshot:**
-![Rainy Day - Invalid Input](./Screenshots/rainy_day.png)
+![Rainy Day - Invalid Input](./Equivalence_Testing/Screenshots/rainy_day.png)
 
 ## Core Logic Snippet (script.js)
 
