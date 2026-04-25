@@ -19,6 +19,7 @@ Limitations
 For this assignment, I implemented a Traffic Light State Machine using Claude AI as my agentic coding assistant.
 
 🚦 State Transition Model
+
 Mermaid State Diagram
 stateDiagram-v2
     [*] --> Red
@@ -42,6 +43,7 @@ stateDiagram-v2
 The invalid transition (Yellow → Timer) is used for the Rainy Day scenario.
 
 💻 Vibe Coding Assignment – Traffic Light App
+
 This app was generated and debugged using Claude AI, which produced the HTML, CSS, and JavaScript. I ran the code locally in my browser and captured screenshots of both Sunny Day and Rainy Day scenarios.
 Files Used
 - index.html
@@ -101,19 +103,23 @@ function triggerEvent(event) {
 
 
 🧪 Test Scenarios
+
 Sunny Day
 - Start at Red
 - Timer → Green
 - Timer → Yellow
 - Emergency → Red
 - All transitions valid
+
 Rainy Day
+
 - Start at Yellow
 - Timer → ❌ Invalid
 - State remains Yellow
 - Error logged
 
 🏁 Conclusion
+
 Using Claude AI as my agentic coding assistant made it significantly easier to generate, debug, and refine the Traffic Light State Machine. Claude helped me:
 - Build the UI
 - Implement the state machine logic
