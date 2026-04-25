@@ -2,6 +2,7 @@ Week 7 – State Transition Testing
 Traffic Light State Machine (Built Using Claude AI)
 
 🧭 Introduction
+
 State Transition Testing is a black‑box testing technique used to validate how a system behaves as it moves between defined states. A state represents a condition the system can be in, and a transition represents a change triggered by an event. This technique is especially useful for systems that have:
 - Distinct modes or phases
 - Rules governing the order of operations
