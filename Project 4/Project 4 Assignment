@@ -1,0 +1,125 @@
+Project 4: User Testing with Selenium IDE
+Course: MSSE 640
+Student: Anusha Reddy
+Application Under Test: Online Boutique (Google Microservices Demo)
+Testing Tool: Selenium IDE
+
+1. Introduction
+This project focuses on applying automated UI testing techniques using Selenium IDE. The goal is to validate core user interactions within the Online Boutique microservices application deployed locally at:
+http://localhost:8080
+
+
+The assignment required creating a series of automated tests that simulate real user behavior, verify expected outcomes, and document the results. Five test cases were developed to cover essential e‑commerce flows, including loading the homepage, viewing product details, adding items to the cart, clearing the cart, and accessing the checkout page.
+All tests were recorded, executed, and validated using Selenium IDE.
+
+2. Test Environment
+Component                    Details
+Browser                      Google Chrome
+Testing Tool                 Selenium IDE
+Application                  Online Boutique(local deployment)
+Operating System             Windows
+
+Developer Tools were used to inspect elements, identify selectors, and validate UI structure during test creation.
+
+3. Test Plan (Given / When / Then Format)
+TC01 – Homepage Loads
+- Given the user opens the Online Boutique application
+- When the homepage loads
+- Then key UI elements should be visible
+TC02 – View Product Details
+- Given the user is on the homepage
+- When they click a product
+- Then the product detail page should display
+TC03 – Add Item to Cart
+- Given the user is viewing a product
+- When they click Add to Cart
+- Then the item should appear in the cart
+TC04 – Clear Cart
+- Given the user has items in the cart
+- When they click Clear cart
+- Then the cart should show “Your cart is empty”
+TC05 – Checkout Page Loads
+- Given the user has at least one item in the cart
+- When they click Checkout
+- Then the checkout form should load successfully
+
+Selenium IDE Test Cases & Screenshots
+
+TC01 – Homepage Loads
+Purpose: Validate that the homepage loads and displays expected UI elements.
+Recorded Steps:
+- Open http://localhost:8080/
+- Set window size
+- Assert homepage element is present
+Screenshot:
+Project 4\HomePage.png
+
+TC02 – View Product Details
+Purpose: Confirm that selecting a product opens its detail page.
+Recorded Steps:
+- Open homepage
+- Click a product tile
+- Assert product name or image is present
+Screenshot:
+Project 4\View Products.png
+
+TC03 – Add Item to Cart
+Purpose: Ensure that items can be added to the cart.
+Recorded Steps:
+- Open homepage
+- Select a product
+- Click Add to Cart
+- Assert item appears in cart
+Screenshot:
+Project 4\Add Item.png
+
+TC04 – Clear Cart
+Purpose: Verify that the cart can be cleared.
+Recorded Steps:
+- Open homepage
+- Select a product
+- Add to cart
+- Navigate to cart
+- Click Clear cart
+- Assert “Your cart is empty”
+Screenshot:
+Project 4\Remove Item.png
+
+TC05 – Checkout Page Loads
+Purpose: Validate that the checkout page loads correctly.
+Recorded Steps:
+- Open homepage
+- Select a product
+- Add to cart
+- Navigate to cart
+- Click Checkout
+- Assert checkout form element is present
+Screenshot:
+Project 4\checkout page.png
+
+5.Test Results Summary
+
+Test Case	Result	Summary
+TC01 – Homepage Loads	     Passed	      Homepage rendered correctly
+TC02 – View Product Details	 Passed	      Product detail page displayed
+TC03 – Add Item to Cart	     Passed	      Item successfully added
+TC04 – Clear Cart	         Passed	      Cart cleared as expected
+TC05 – Checkout Page Loads	 Passed	      Checkout form loaded
+
+
+
+6. Reflection
+Completing this project strengthened my understanding of automated UI testing and the capabilities of Selenium IDE. Key takeaways include:
+- How to record and refine Selenium IDE test flows
+- How to use assertions to validate UI behavior
+- How to inspect elements and identify reliable selectors
+- How to troubleshoot failing steps and adjust test logic
+- Understanding the Online Boutique UI structure, including the use of a Clear cart button instead of individual item removal
+This project also reinforced the importance of repeatable, automated testing for validating user-facing functionality.
+
+7. Conclusion
+All five Selenium IDE test cases were successfully created, executed, and validated. The Online Boutique application behaved as expected across all major user flows, demonstrating stable functionality and predictable UI behavior.
+
+
+
+
