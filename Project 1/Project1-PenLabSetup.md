@@ -18,13 +18,11 @@ graph LR
 
 Inserted screenshot showing both Kali Linux and Metasploitable2 running inside VirtualBox.
 
-- Suggestion: save image as `screenshots/virtualbox.png` and insert below:
-
 ![VirtualBox showing Kali and Metasploitable2](screenshots/Virtualbox.png)
 
 ## 4. Screenshot of Running Kali Linux
 
-Inserted screenshot showing the Kali desktop with a terminal open and you logged in.
+Inserted screenshot showing the Kali desktop with a terminal open and logged in.
 
 ![Kali desktop with terminal open](screenshots/Kali Running (2).png)
 
