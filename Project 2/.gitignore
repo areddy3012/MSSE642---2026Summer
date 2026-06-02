@@ -1,0 +1,23 @@
+# Node artifacts
+node_modules/
+npm-debug.log*
+package-lock.json
+.yarn/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+# Logs
+logs
+*.log
+
+# Build
+dist/
+build/
