@@ -24,7 +24,7 @@ Inserted screenshot showing both Kali Linux and Metasploitable2 running inside V
 
 ## 4. Screenshot of Running Kali Linux
 
-Inserted screenshot showing the Kali desktop with a terminal open and you logged in.
+Inserted screenshot showing the Kali desktop with a terminal open and logged in.
 
 ![Kali desktop with terminal open](../images/Kali Running (2).png)
 

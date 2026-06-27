@@ -1,8 +1,8 @@
-Vibe Coding Assignment 1 — Broken Access Control Demo
-Student: Anusha Reddy
+**Vibe Coding Assignment 1 — Broken Access Control Demo**
+**Student: Anusha Reddy
 Course: MSSE 642 — Software Assurance
 Professor: Randall Granier
-Semester: 2026 Summer
+Semester: 2026 Summer**
 
 🧩 Overview
 This project demonstrates Broken Access Control, one of the OWASP Top 10 vulnerabilities.
